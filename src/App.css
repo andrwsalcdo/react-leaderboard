@@ -1,0 +1,7 @@
+.Header-title,.Header-subtitle {
+    display: inline-block; 
+    color: white; 
+}
+.Header-subtitle {
+    margin-left: 20px; 
+}
