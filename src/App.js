@@ -2,14 +2,17 @@ import React, { Component } from 'react';
 import './App.css'
 
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer'
 
 
 class App extends Component {
   render() {
     return (
-        <Header />
-        // <Body/Table/Board /> 
-        // <Footer /> 
+      <div>
+          <Header />
+          {/*// <Body/Table/Board /> */}
+          <Footer /> 
+      </div>
     );
   }
 }
