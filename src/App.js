@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css'
 
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer';
+// import Leaderboard from './components/Body/Leaderboard';
 
 
 class App extends Component {
@@ -10,7 +11,7 @@ class App extends Component {
     return (
       <div>
           <Header />
-          {/*// <Body/Table/Board /> */}
+          {/*<Leaderboard />*/}
           <Footer /> 
       </div>
     );
