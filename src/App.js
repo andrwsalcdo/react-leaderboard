@@ -3,7 +3,7 @@ import './App.css'
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Leaderboard from './components/Body/Leaderboard';
+import Leaderboard from './components/Leaderboard/Leaderboard';
 
 
 class App extends Component {

@@ -1,15 +1,14 @@
 import React from 'react';
 
 import Title from './Title'; 
-// import Tableheader from './Tableheader'; 
-// import Userlist from './Userlist'; 
+import Table from './Table'; 
+
 
 
 const LeaderBoard = () => (
     <div className="container">
         <Title  /> 
-        {/*// <Tableheader />
-        // <Userlist />*/}
+        <Table />
     </div>    
 )
 
