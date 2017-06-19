@@ -1,15 +1,16 @@
 import React from 'react';
 
-const User = () => (
+const User = (props) => (
     <tr>
-        <td className="idcol">count</td>
+        <td className="idcol">{props.rank}</td>
         <td>
-            <a href="fcc link" target="_blank"></a>
-            <img src="" alt="User's Avatar Image" className="userimg" />
-            <span>username</span>
+            <a href={"https://www.freecodecamp.com/"+props.data.username} target="_blank">
+            <img src={props.data.img} alt="User's Avatar" className="userimg" />
+            <span>{props.data.username}</span>
+            </a>
         </td>
-        <td className="pointscol">points</td>
-        <td className="pointscol">points</td>        
+        <td className="pointscol">{props.data.recent}</td>
+        <td className="pointscol">{props.data.alltime}</td>        
     </tr>
 )
 
