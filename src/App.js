@@ -3,7 +3,7 @@ import './App.css'
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Leaderboard from './components/Leaderboard/Leaderboard';
+import LeaderboardContainer from './components/Containers/LeaderboardContainer';
 
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
           <Header />
-          <Leaderboard />
+          <LeaderboardContainer />
           <Footer /> 
       </div>
     );
