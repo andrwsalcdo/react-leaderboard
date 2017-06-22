@@ -35,7 +35,12 @@ $primary-color: white;
 /* 
   Table Header Component src/components/Leaderboard/TableHeader 
 */ 
-
+#colheaders th{
+    text-align: center; 
+}
+#colheaders a {
+    cursor: pointer; 
+}
 
 /* 
   User Component src/components/Leaderboard/User 
