@@ -20,6 +20,25 @@
     color: white;
     padding: 10px 10px; }
 
+/* 
+  Table Header Component src/components/Leaderboard/TableHeader 
+*/
+/* 
+  User Component src/components/Leaderboard/User 
+*/
+.idcol {
+  width: 5%; }
+
+.userimg {
+  border: 2px solid #54b4eb;
+  border-radius: 5px;
+  margin-right: 5px;
+  max-height: 50px;
+  width: 50px; }
+
+.idcol, .pointscol {
+  text-align: center; }
+
 /*
       Main Footer Component 
         src/components/Footer/
