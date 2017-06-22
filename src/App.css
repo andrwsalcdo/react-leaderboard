@@ -14,11 +14,13 @@
 */
 #leaderboard-Title {
   background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
-  border-radius: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   margin-top: 50px; }
   #leaderboard-Title h3 {
     color: white;
-    padding: 10px 10px; }
+    padding: 10px 10px;
+    margin: 0; }
 
 /* 
   Table Header Component src/components/Leaderboard/TableHeader 

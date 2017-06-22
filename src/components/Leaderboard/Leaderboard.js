@@ -20,21 +20,23 @@ const Leaderboard = (props) => {
     return ( 
                      <div className="container">        
                         <Title />
-                        <div className="row">
-                            <div className="col-sm-12">
-                                <table className="table table-striped table-bordered">
-                                    <Tableheader 
-                                        //pass on the click handler props to this child component
-                                        // to display recent and top points
-                                        toggleTopScores={props.onClickTop} 
-                                        toggleRecentScores={props.onClickRecent} 
-                                    />
-                                    <tbody>
-                                        {userList}
-                                     </tbody>
-                                 </table>
-                             </div>
-                         </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-sm-12">
+                                    <table className="table table-striped table-bordered">
+                                        <Tableheader 
+                                            //pass on the click handler props to this child component
+                                            // to display recent and top points
+                                            toggleTopScores={props.onClickTop} 
+                                            toggleRecentScores={props.onClickRecent} 
+                                        />
+                                        <tbody>
+                                            {userList}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
                      </div>    
     );
 
