@@ -6,7 +6,8 @@ const Footer = () => (
     <div id="footer" className="text-center">
         <p >Made by Andrew Salcedo
         <span> 
-            <a href="https://github.com/andrwsalcdo/react-leaderboard">
+            <a href="https://github.com/andrwsalcdo/react-leaderboard" 
+                rel="noopener noreferrer" target="_blank">
                 <FaGithub size={25} color="black" /> 
             </a>        
         </span>
