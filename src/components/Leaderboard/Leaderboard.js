@@ -18,10 +18,9 @@ const Leaderboard = (props) => {
         )
     }); 
     return ( 
-                     <div className="container">        
+                     <div className="container board">        
                         <Title />
-                        <div className="container">
-                            <div className="row">
+                        <div className="row">
                                 <div className="col-sm-12">
                                     <table className="table table-striped table-bordered">
                                         <Tableheader 
@@ -35,7 +34,6 @@ const Leaderboard = (props) => {
                                         </tbody>
                                     </table>
                                 </div>
-                            </div>
                         </div>
                      </div>    
     );

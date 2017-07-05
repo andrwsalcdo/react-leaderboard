@@ -2,7 +2,6 @@ import React from 'react';
 
 
 const Title = () => (
-    <div className="container">
         <div className="row text-center">
             <div className="col-sm-12">
                 <div id="leaderboard-Title">
@@ -10,7 +9,6 @@ const Title = () => (
                 </div>
             </div>
         </div>
-    </div>
 )
 
 export default Title; 

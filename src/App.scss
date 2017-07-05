@@ -1,63 +1,76 @@
-$primary-color: white; 
+//Colors
+    $primary-color: white; 
 
 
 /*
     Main Header Component 
        src/components/Header/
  */
+ .nav-body {
+    color: $primary-color; 
+    height: 70px;
+    left: 0; 
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100vw;
+ }
 
 .Header-title,.Header-subtitle {
     display: inline-block; 
     color: $primary-color; 
-}
-
-.Header-subtitle {
     margin-left: 20px; 
 }
 
 /* 
-  Title Component src/components/Leaderboard/Title
+  Leaderboard Component src/components/Leaderboard/
 */ 
+.board {
+    margin-bottom: 100px; 
+}
+        /* 
+        Title Component src/components/Leaderboard/Title
+        */ 
 
-#leaderboard-Title {
-    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);  
-    border-top-left-radius: 5px; 
-    border-top-right-radius: 5px; 
-    margin-top: 50px; 
+        #leaderboard-Title {
+            background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);  
+            border-top-left-radius: 5px; 
+            border-top-right-radius: 5px; 
+            margin-top: 50px; 
 
-     h3 { 
-        color: $primary-color; 
-        padding: 10px 10px; 
-        margin: 0; 
-    }
-}
+            h3 { 
+                color: $primary-color; 
+                padding: 10px 10px; 
+                margin: 0; 
+            }
+        }
 
-/* 
-  Table Header Component src/components/Leaderboard/TableHeader 
-*/ 
-#colheaders th{
-    text-align: center; 
-}
-#colheaders a {
-    cursor: pointer; 
-}
+            /* 
+            Table Header Component src/components/Leaderboard/TableHeader 
+            */ 
+            #colheaders th{
+                text-align: center; 
+            }
+            #colheaders a {
+                cursor: pointer; 
+            }
 
-/* 
-  User Component src/components/Leaderboard/User 
-*/ 
-.idcol {
-    width: 5%;
-}
-.userimg {
-    border: 2px solid #54b4eb; 
-    border-radius: 5px; 
-    margin-right: 5px; 
-    max-height: 50px; 
-    width: 50px; 
-}
-.idcol, .pointscol  {
-    text-align: center; 
-}
+            /* 
+            User Component src/components/Leaderboard/User 
+            */ 
+            .idcol {
+                width: 5%;
+            }
+            .userimg {
+                border: 2px solid #54b4eb; 
+                border-radius: 5px; 
+                margin-right: 5px; 
+                max-height: 50px; 
+                width: 50px; 
+            }
+            .idcol, .pointscol  {
+                text-align: center; 
+            }
 
 
 /*
@@ -65,22 +78,21 @@ $primary-color: white;
         src/components/Footer/
 */
 #footer {
-    margin-top: 100px; 
-
-    .Footer {
-        background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
-        bottom: 0;
-        color: $primary-color; 
-        height: 60px;
-        left: 0; 
-        position: absolute;
-        right: 0; 
-        width: 100%;
-
-        p  {
-            font-size: 16px; 
-            position: relative; 
-            top: 30%; 
-        }
+    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+    bottom: 0;
+    color: $primary-color; 
+    height: 60px;
+    left: 0; 
+    overflow-x: hidden; 
+    position: fixed;
+    right: 0;
+    width: 100vw;
+   
+    p  {
+        padding-top: 1em; 
+    }
+    span {
+        margin-left: 1em; 
     }
 }
+

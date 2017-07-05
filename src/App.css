@@ -2,16 +2,29 @@
     Main Header Component 
        src/components/Header/
  */
+.nav-body {
+  color: white;
+  height: 70px;
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100vw; }
+
 .Header-title, .Header-subtitle {
   display: inline-block;
-  color: white; }
-
-.Header-subtitle {
+  color: white;
   margin-left: 20px; }
 
 /* 
-  Title Component src/components/Leaderboard/Title
+  Leaderboard Component src/components/Leaderboard/
 */
+.board {
+  margin-bottom: 100px; }
+
+/* 
+        Title Component src/components/Leaderboard/Title
+        */
 #leaderboard-Title {
   background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
   border-top-left-radius: 5px;
@@ -23,8 +36,8 @@
     margin: 0; }
 
 /* 
-  Table Header Component src/components/Leaderboard/TableHeader 
-*/
+            Table Header Component src/components/Leaderboard/TableHeader 
+            */
 #colheaders th {
   text-align: center; }
 
@@ -32,8 +45,8 @@
   cursor: pointer; }
 
 /* 
-  User Component src/components/Leaderboard/User 
-*/
+            User Component src/components/Leaderboard/User 
+            */
 .idcol {
   width: 5%; }
 
@@ -52,17 +65,16 @@
         src/components/Footer/
 */
 #footer {
-  margin-top: 100px; }
-  #footer .Footer {
-    background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
-    bottom: 0;
-    color: white;
-    height: 60px;
-    left: 0;
-    position: absolute;
-    right: 0;
-    width: 100%; }
-    #footer .Footer p {
-      font-size: 16px;
-      position: relative;
-      top: 30%; }
+  background-image: linear-gradient(#54b4eb, #2fa4e7 60%, #1d9ce5);
+  bottom: 0;
+  color: white;
+  height: 60px;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+  right: 0;
+  width: 100vw; }
+  #footer p {
+    padding-top: 1em; }
+  #footer span {
+    margin-left: 1em; }
