@@ -27,6 +27,7 @@
 */ 
 .board {
     margin-bottom: 100px; 
+    overflow: hidden; 
 }
         /* 
         Title Component src/components/Leaderboard/Title
@@ -48,11 +49,19 @@
             /* 
             Table Header Component src/components/Leaderboard/TableHeader 
             */ 
+            
             #colheaders th{
                 text-align: center; 
             }
             #colheaders a {
                 cursor: pointer; 
+            }
+            //small screen: prevent leaderboard from going off the screen
+            @media screen and (max-width: 400px) {
+                .table>thead>tr>th, .table>tbody>tr>th, 
+                .table>thead>tr>td,  .table>tbody>tr>td, {
+                    padding: 0; 
+                }
             }
 
             /* 

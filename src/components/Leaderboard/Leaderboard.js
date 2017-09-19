@@ -21,7 +21,7 @@ const Leaderboard = (props) => {
                      <div className="container board">        
                         <Title />
                         <div className="row">
-                                <div className="col-sm-12">
+                                <div className="col-xs-12">
                                     <table className="table table-striped table-bordered">
                                         <Tableheader 
                                             //pass on the click handler props to this child component

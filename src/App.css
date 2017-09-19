@@ -20,7 +20,8 @@
   Leaderboard Component src/components/Leaderboard/
 */
 .board {
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  overflow: hidden; }
 
 /* 
         Title Component src/components/Leaderboard/Title
@@ -43,6 +44,11 @@
 
 #colheaders a {
   cursor: pointer; }
+
+@media screen and (max-width: 400px) {
+  .table > thead > tr > th, .table > tbody > tr > th,
+  .table > thead > tr > td, .table > tbody > tr > td {
+    padding: 0; } }
 
 /* 
             User Component src/components/Leaderboard/User 
